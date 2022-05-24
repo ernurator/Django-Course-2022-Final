@@ -10,5 +10,5 @@ urlpatterns = [
 ]
 
 router = routers.SimpleRouter()
-router.register(r'', views.AuthenticationViewSet, basename='authentication')
+router.register(r'', views.RegistrationViewSet, basename='authentication')
 urlpatterns.extend(router.urls)
